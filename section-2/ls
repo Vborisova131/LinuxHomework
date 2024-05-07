@@ -1,0 +1,3 @@
+Команда: ls --full-time
+Возможный вариант: ls -l --time-style=iso\long-iso\etc
+Результат: drwxrwxr-x  4 max max 4096 2024-05-02 04:21:38.578336140 -0400 dz
