@@ -1,0 +1,2 @@
+Команда: dpkg -S /usr/bin/wget
+Результат: wget: /usr/bin/wget

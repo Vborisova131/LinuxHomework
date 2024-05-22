@@ -1,0 +1,11 @@
+Я провела поиск с помощью команды apt search jquery highlight
+Получила 2 результата:
+Sorting... Done
+Full Text Search... Done
+libjs-jquery-datetimepicker/jammy,jammy 2.5.20+ds-1 all
+  Date and Time Picker plugin for jQuery
+
+libjs-jquery-jush/jammy,jammy,now 12-3 all [installed]
+  jQuery Syntax Highlighter
+  
+Выбрала нижний и установила с помощью sudo apt install libjs-jquery-jush
