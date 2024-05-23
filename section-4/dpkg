@@ -1,0 +1,15 @@
+Полученные ошибки:
+dpkg: dependency problems prevent configuration of tor:
+ tor depends on libevent-2.1-6 (>= 2.1.8-stable); however:
+  Package libevent-2.1-6 is not installed.
+ tor depends on libssl1.1 (>= 1.1.0); however:
+  Package libssl1.1 is not installed.
+
+dpkg: error processing package tor (--install):
+ dependency problems - leaving unconfigured
+Processing triggers for man-db (2.10.2-1) ...
+Errors were encountered while processing:
+ tor
+
+Причина ошибок:
+Проблема с зависимостями при установке. Не установлены пакеты libevent-2.1-6 и libssl1.1. Для устранения проблемы можно установить названные выше программы из любых источников (например, через репозотории вручную или через sudo apt install -f). После установки пакетов установка tor пройдет успешно
