@@ -1,0 +1,10 @@
+Вариант:
+find ./empty/ | xargs grep 'You got me!'
+grep: ./empty/: Is a directory
+./empty/file777:You got me!
+
+grep -r 'You got me!' ./empty
+./empty/file777:You got me!
+
+grep -rl 'You got me!' ./empty
+./empty/file777
