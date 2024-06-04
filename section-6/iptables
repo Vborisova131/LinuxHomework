@@ -1,2 +1,9 @@
+Команда установки:
+sudo apt install -y iptables
+Команда проверки:
+sudo iptables -L
+Результат:
 Chain OUTPUT (policy ACCEPT)
 target     prot opt source               destination
+
+(пусто после очистки :)
