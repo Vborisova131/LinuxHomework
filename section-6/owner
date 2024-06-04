@@ -1,0 +1,5 @@
+Команда:
+sudo find ~/owner/file541 -perm -u=r
+
+Результат:
+/home/max/owner/file541

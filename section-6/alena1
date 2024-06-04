@@ -1,0 +1,4 @@
+Команда: sudo useradd alena
+
+grep -i alena /etc/passwd
+alena:x:1002:1002::/home/alena:/bin/sh
