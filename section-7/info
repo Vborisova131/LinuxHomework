@@ -1,35 +1,62 @@
+dig ya.ru
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> ya.ru
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 54400
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;ya.ru.				IN	A
+
+;; ANSWER SECTION:
+ya.ru.			309	IN	A	77.88.55.242
+ya.ru.			309	IN	A	77.88.44.242
+ya.ru.			309	IN	A	5.255.255.242
+
+;; Query time: 3 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)
+;; WHEN: Wed Jun 05 13:41:17 EDT 2024
+;; MSG SIZE  rcvd: 82
+
+host -v ya.ru
 Trying "ya.ru"
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 27511
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 64476
 ;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 0
 
 ;; QUESTION SECTION:
 ;ya.ru.				IN	A
 
 ;; ANSWER SECTION:
-ya.ru.			374	IN	A	77.88.55.242
-ya.ru.			374	IN	A	77.88.44.242
-ya.ru.			374	IN	A	5.255.255.242
+ya.ru.			422	IN	A	77.88.55.242
+ya.ru.			422	IN	A	5.255.255.242
+ya.ru.			422	IN	A	77.88.44.242
 
-Received 71 bytes from 127.0.0.53#53 in 0 ms
+Received 71 bytes from 127.0.0.53#53 in 19 ms
 Trying "ya.ru"
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 3100
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 45523
 ;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
 
 ;; QUESTION SECTION:
 ;ya.ru.				IN	AAAA
 
 ;; ANSWER SECTION:
-ya.ru.			201	IN	AAAA	2a02:6b8::2:242
+ya.ru.			249	IN	AAAA	2a02:6b8::2:242
 
 Received 51 bytes from 127.0.0.53#53 in 7 ms
 Trying "ya.ru"
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 50509
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 9507
 ;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
 
 ;; QUESTION SECTION:
 ;ya.ru.				IN	MX
 
 ;; ANSWER SECTION:
-ya.ru.			33	IN	MX	10 mx.yandex.ru.
+ya.ru.			81	IN	MX	10 mx.yandex.ru.
 
-Received 49 bytes from 127.0.0.53#53 in 3 ms
+Received 49 bytes from 127.0.0.53#53 in 7 ms
+
+Еще варианты:
+traceroute -l -n ya.ru
+tracepath -n ya.ru
