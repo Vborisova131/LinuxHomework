@@ -1,0 +1,35 @@
+Trying "ya.ru"
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 27511
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;ya.ru.				IN	A
+
+;; ANSWER SECTION:
+ya.ru.			374	IN	A	77.88.55.242
+ya.ru.			374	IN	A	77.88.44.242
+ya.ru.			374	IN	A	5.255.255.242
+
+Received 71 bytes from 127.0.0.53#53 in 0 ms
+Trying "ya.ru"
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 3100
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;ya.ru.				IN	AAAA
+
+;; ANSWER SECTION:
+ya.ru.			201	IN	AAAA	2a02:6b8::2:242
+
+Received 51 bytes from 127.0.0.53#53 in 7 ms
+Trying "ya.ru"
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 50509
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;ya.ru.				IN	MX
+
+;; ANSWER SECTION:
+ya.ru.			33	IN	MX	10 mx.yandex.ru.
+
+Received 49 bytes from 127.0.0.53#53 in 3 ms
