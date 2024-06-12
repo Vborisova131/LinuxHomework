@@ -1,0 +1,11 @@
+Если нужны только открытые, используем БЕЗ sudo
+lsof -c ssh(d)
+COMMAND     PID USER   FD      TYPE DEVICE SIZE/OFF NODE NAME
+sshd        765 root  cwd   unknown                      /proc/765/cwd (readlink: Permission denied)
+sshd        765 root  rtd   unknown                      /proc/765/root (readlink: Permission denied)
+sshd        765 root  txt   unknown                      /proc/765/exe (readlink: Permission denied)
+sshd        765 root NOFD                                /proc/765/fd (opendir: Permission denied)
+ssh-agent 11030  max  cwd   unknown                      /proc/11030/cwd (readlink: Permission denied)
+ssh-agent 11030  max  rtd   unknown                      /proc/11030/root (readlink: Permission denied)
+ssh-agent 11030  max  txt   unknown                      /proc/11030/exe (readlink: Permission denied)
+ssh-agent 11030  max NOFD                                /proc/11030/fd (opendir: Permission denied)
