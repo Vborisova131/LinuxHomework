@@ -1,0 +1,4 @@
+ps -aux | grep ssh
+root         765  0.0  0.2  15436  8960 ?        Ss   13:48   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+
+результат: 765
