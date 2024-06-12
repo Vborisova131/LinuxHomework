@@ -1,0 +1,9 @@
+sudo pvcreate /dev/vdb
+sudo vgcreate volume1 /dev/vdb
+sudo lvcreate -l 100%FREE -n storage volume1
+sudo apt-get install xfsprogs - optional
+sudo mkfs.xfs /dev/volume1/storage
+sudo mkdir /storage
+sudo mount /dev/volume1/storage /storage
+sudo vi /etc/fstab
+Add /dev/volume1/storage /storage xfs rw 0 0
