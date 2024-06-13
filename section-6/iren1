@@ -1,0 +1,9 @@
+sudo addgroup --gid 1010 iren
+Adding group `iren' (GID 1010) ...
+
+sudo useradd -u 1010 -g 1010 -s /bin/dash iren
+id iren
+uid=1010(iren) gid=1010(iren) groups=1010(iren)
+
+grep -i iren /etc/passwd
+iren:x:1010:1010::/home/iren:/bin/dash

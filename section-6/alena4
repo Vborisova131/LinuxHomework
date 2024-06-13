@@ -1,0 +1,8 @@
+sudo addgroup developers
+Adding group `developers' (GID 1004) ...
+Done.
+max@ws01:~$ sudo usermod -g developers alena
+max@ws01:~$ grep alena /etc/passwd
+alena:x:1002:1004::/home/alena:/bin/sh
+
+Для добавления Алены в группу еще нужен флаг -G

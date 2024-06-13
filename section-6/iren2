@@ -1,0 +1,2 @@
+sudo passwd -e iren
+passwd: password expiry information changed.

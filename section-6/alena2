@@ -1,0 +1,6 @@
+Команда
+sudo usermod -G alena sudo
+
+Результат;
+grep sudo /etc/group
+sudo:x:27:osboxes,max,alena
